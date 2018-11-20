@@ -57,15 +57,16 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
-span {
+/* span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
-}
+  font-size: 22px;
+} */
 
 #mainContainer {
   /* display: flex;
   justify-content: space-evenly; */
-  background-color: green;
+  /* background-color: green; */
+  overflow: hidden;
   width: 99%;
   height: auto;
   padding: 10px 1%;
@@ -84,24 +85,31 @@ span {
 .mainContainerDiv {
   width: 49%;
   float: left;
-  background-color:darkgreen;
-  padding: 20px 2%;
+  background:linear-gradient(
+    rgba(35,43,85,0.75),
+    rgba(35,43,85,0.95));
+    padding: 20px 2.5%;
+    padding-top: 30px;
+
   margin: 10px 0.5%;
   box-sizing: border-box;
   border-radius: 5px;
+  /* padding-bottom: 120%;
+  margin-bottom: -116%; */
+  overflow: hidden;
 }
 
 .mainSpan {
   color: white;
-  font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 18px;
+  letter-spacing:0.6px;
   font-weight: 100;
 }
 
 li {
   color: white;
-  font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 17px;
+  font-style: italic;
   font-weight: 100; 
 }
 
@@ -124,7 +132,10 @@ li {
 }
 
 #downloadsBox {
-  /* background-color: yellowgreen; */
+  /* background: linear-gradient(
+    rgba(35,43,85,0.75),
+    rgba(35,43,85,0.95)); */
+    /* border:2px solid blue; */
   box-sizing: border-box;
   border-radius: 5px;
   box-sizing: border-box;
@@ -143,10 +154,16 @@ h6{
 
 #dbView {
   height: 200px;
+  display: block;
+  margin-bottom:0px;
+  margin: auto;
 }
 
 #dbDiff {
   height: 200px;
+  display: block;
+  margin: auto;
+  padding-bottom: 4.7px;
 }
 
 #modalContainer {
@@ -202,15 +219,22 @@ h6{
 #close:focus {
   outline: 0;
 }
+.mainContainerDiv > span {
+  line-height:30px;
+  height:30px;
+}
 @media only screen and (max-width: 800px) {
   #mainContainer{
 
-  background-color: red;
+  /* background-color: red; */
   /* width:97%; */
   }
   .mainContainerDiv{
     width:99%;
-    padding: 20px 5%;
+    padding: 20px 3%;
+    margin:10px 0.6%;
+    /* padding-bottom: 100%;
+    margin-bottom: -100%; */
   }
 }
 
