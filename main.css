@@ -236,6 +236,16 @@ h6{
     /* padding-bottom: 100%;
     margin-bottom: -100%; */
   }
+
+  #modalImg{
+    height: 45%;
+    width: auto;
+    /* margin: auto; */
+  }
+  #modalContainer{
+    display: block;
+    margin: auto;
+  }
 }
 
 #downloadForMac {
