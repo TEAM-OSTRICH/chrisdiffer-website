@@ -24,6 +24,10 @@ const MainContainer = (props) => {
         Visually compare changes between your development and production databases before committing changes and reduce errors.
           <br />
           <br />
+          <br />
+          <br />
+          {/* <br />
+          <br /> */}
         Features:
         </span>
         <ul>

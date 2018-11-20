@@ -26976,7 +26976,7 @@ var MainContainer = function MainContainer(props) {
     className: "mainContainerDiv"
   }, _react.default.createElement("span", {
     className: "mainSpan"
-  }, "CHRISDIFFER is a open-source tool to aid developers in schema migrations.", _react.default.createElement("br", null), _react.default.createElement("br", null), "Visually compare changes between your development and production databases before committing changes and reduce errors.", _react.default.createElement("br", null), _react.default.createElement("br", null), "Features:"), _react.default.createElement("ul", null, _react.default.createElement("li", null, "View the structure of your databases"), _react.default.createElement("br", null), _react.default.createElement("li", null, "See table column data types / constraints and the relationships between tables"), _react.default.createElement("br", null), _react.default.createElement("li", null, "Visualize the differences between your databases in a intuitive manner"), _react.default.createElement("br", null), _react.default.createElement("li", null, "Choose which changes to make from the GUI and automatically generate the alter scripts to update your target database"))), _react.default.createElement("div", {
+  }, "CHRISDIFFER is a open-source tool to aid developers in schema migrations.", _react.default.createElement("br", null), _react.default.createElement("br", null), "Visually compare changes between your development and production databases before committing changes and reduce errors.", _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), "Features:"), _react.default.createElement("ul", null, _react.default.createElement("li", null, "View the structure of your databases"), _react.default.createElement("br", null), _react.default.createElement("li", null, "See table column data types / constraints and the relationships between tables"), _react.default.createElement("br", null), _react.default.createElement("li", null, "Visualize the differences between your databases in a intuitive manner"), _react.default.createElement("br", null), _react.default.createElement("li", null, "Choose which changes to make from the GUI and automatically generate the alter scripts to update your target database"))), _react.default.createElement("div", {
     className: "mainContainerDiv"
   }, _react.default.createElement("span", {
     className: "mainSpan"
@@ -27259,7 +27259,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 _reactDom.default.render(_react.default.createElement(_reactRedux.Provider, {
   store: _store.default
 }, _react.default.createElement(_App.default, null)), document.getElementById('root'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-redux":"node_modules/react-redux/es/index.js","./client/App.jsx":"src/client/App.jsx","./store.js":"src/store.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-redux":"node_modules/react-redux/es/index.js","./client/App.jsx":"src/client/App.jsx","./store.js":"src/store.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -27286,7 +27286,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49391" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61710" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -27428,5 +27428,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/index.js"], null)
+},{}]},{},["node_modules/parcel/src/builtins/hmr-runtime.js","src/index.js"], null)
 //# sourceMappingURL=/src.a2b27638.map
