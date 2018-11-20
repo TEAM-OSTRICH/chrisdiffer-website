@@ -1,0 +1,26 @@
+{
+  "name": "chrisdiffer-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "server": "nodemon src/server/server.js"
+  },
+  "keywords": [],
+  "author": "Ge, Lee, Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "parcel": "^1.10.3",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
