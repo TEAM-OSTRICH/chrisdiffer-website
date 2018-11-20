@@ -260,3 +260,9 @@ h6 {
   font-family: 'Nunito';
   font-size: 20px;
 }
+
+.example-image {
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}

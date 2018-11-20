@@ -50,7 +50,7 @@ const MainContainer = (props) => {
         </span>
         <br />
         <br />
-        <img id="dbView" src={dbViewImgUrl} onClick={event => openModalDisplay(event)} />
+        <img className="example-image" id="dbView" src={dbViewImgUrl} onClick={event => openModalDisplay(event)} />
         <br />
         <br />
         <span className="mainSpan">
@@ -58,7 +58,7 @@ const MainContainer = (props) => {
         </span>
         <br />
         <br />
-        <img id="dbDiff" src={dbDiffImgUrl} onClick={event => openModalDisplay(event)} />
+        <img className="example-image" id="dbDiff" src={dbDiffImgUrl} onClick={event => openModalDisplay(event)} />
       </div>
     </div>
   );
