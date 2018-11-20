@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import octocatImgUrl from '../assets/octocat.png';
 import dbViewImgUrl from '../assets/dbView.png';
 import dbDiffImgUrl from '../assets/dbDiff.png';
+import downloadForMac from '../assets/download_mac_button.png';
+import downloadForWindows from '../assets/download_windows_button.png';
 
 const MainContainer = (props) => {
   const { openModalDisplay } = props;
@@ -10,10 +12,12 @@ const MainContainer = (props) => {
     <div id="mainContainer">
       <div id="downloadsContainer">
         <div id="downloadsBox">
-          <a href="https://github.com/TEAM-OSTRICH/CHRISDIFFER">
+          <h6>Downloads</h6>
+          <img id="downloadForMac" src={downloadForMac} />
+          <img id="downloadForWindows" src={downloadForWindows} />
+          <a href="https://github.com/TEAM-OSTRICH/CHRISDIFFER" target="_blank">
             <img id="octocat" src={octocatImgUrl} />
           </a>
-          <h6>download</h6>
         </div>
       </div>
       <div className="mainContainerDiv">

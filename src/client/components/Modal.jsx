@@ -7,13 +7,14 @@ const Modal = (props) => {
 
   return (
     <div id="modalContainer">
-      <button id="arrowButton">
+      {/* <button id="arrowButton">
         <i id="leftArrow" className="fas fa-arrow-circle-left" />
-      </button>
+      </button> */}
       <img id="modalImg" src={require(`../assets/${currentImg}.png`)} />
-      <button id="arrowButton">
+      {/* <button id="arrowButton">
         <i id="rightArrow" className="fas fa-arrow-circle-right" />
-      </button>
+      </button> */}
+      <br />
       <button id="close" onClick={closeModalDisplay}>
         <i className="fas fa-times-circle" />
       </button>

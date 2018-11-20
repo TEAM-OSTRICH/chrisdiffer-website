@@ -124,17 +124,15 @@ li {
 }
 
 #downloadsBox {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 1%;
   box-sizing: border-box;
 }
 
 #octocat {
   height: 75px;
   margin: auto;
-  display: block;
 }
 h6{
   padding: 0;
@@ -152,9 +150,10 @@ h6{
 }
 
 #modalContainer {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -165,8 +164,10 @@ h6{
 
 #modalImg {
   height: 80%;
-  margin-left: 25px;
-  margin-right: 25px;
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 #leftArrow {
@@ -211,4 +212,17 @@ h6{
     width:99%;
     padding: 20px 5%;
   }
+}
+
+#downloadForMac {
+  height: 10%;
+}
+
+#downloadForWindows {
+  height: 10%;
+}
+
+h6 {
+  font-family: 'Nunito';
+  font-size: 20px;
 }
